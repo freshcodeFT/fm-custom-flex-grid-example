@@ -1,6 +1,11 @@
 @import "./reset.css";
 @import "./grid.css";
 
-.row > * {
+article > * {
   border: 3px solid red;
+  background-color: bisque;
+}
+.row > * {
+  border: 3px solid green;
+}
 }
