@@ -1,43 +1,4 @@
 @import "./reset.css";
 @import "./grid.css";
-
-article > * {
-  border: 3px solid red;
-  background-color: bisque;
-}
-.row > * {
-  border: 3px solid green;
-}
-
-.nav-wrapper{
-  display: flex;
-}
-
-.nav-container{
-  overflow-x: auto;
-}
-
-.nav-container::-webkit-scrollbar{
-  display: none;
-}
-
-.outer-wrapper{
-  width: 85%;
-  margin: 0 auto;
-  background-color: gray;
-}
-
-.inner-wrapper{
-  padding-top: calc(100% * 9 / 16);
-  position: relative;
-}
-
-.responsive-media{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  object-fit: contain;
-}
+@import "./common.css";
+@import "./projects-screen.css";

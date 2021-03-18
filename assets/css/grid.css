@@ -1,12 +1,14 @@
+:root{
+  --column-count: 12;
+  --gutter-size: 1rem;
+  --padding-value: calc(var(--gutter-size) / 2);
+}
+
 *{
   box-sizing: border-box;
 }
 
 .container{
-  --column-count: 12;
-  --gutter-size: 1rem;
-  --padding-value: calc(var(--gutter-size) / 2);
-
   width: 100%;
   margin: 0 auto;
   padding-left: var(--padding-value);
