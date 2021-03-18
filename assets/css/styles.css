@@ -8,4 +8,16 @@ article > * {
 .row > * {
   border: 3px solid green;
 }
+
+.nav-wrapper{
+  display: flex;
+}
+
+.nav-container{
+  overflow-x: auto;
+}
+
+.nav-container::-webkit-scrollbar{
+  display: none;
+}
 }
