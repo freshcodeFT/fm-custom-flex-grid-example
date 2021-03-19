@@ -1,0 +1,38 @@
+.skill-progress {
+  height: 5px;
+  width: 200px;
+  background-color: gray;
+}
+
+.skill-progress-inner {
+  height: 100%;
+  width: 10%;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+
+.skill-gradient-progress {
+  margin: 10px 0;
+  height: 5px;
+  width: 200px;
+  background: linear-gradient(90deg, coral 50%, gray 0%);
+}
+
+.test-container{
+  width: 100vw;
+  display: flex;
+}
+
+.test-content{
+  min-width: 50%;
+  width: 50%
+}
+
+.test-image{
+  
+}
